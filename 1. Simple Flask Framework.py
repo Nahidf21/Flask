@@ -10,8 +10,8 @@ app = Flask(__name__)
 def welcome():
     return "Welcome to my world, This is my first project with flask"
 
-@app.route(rule='/second')
-def second():
+@app.route(rule='/index')
+def index():
     return "This is our second page"
 
 if __name__ == "__main__":
